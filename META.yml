@@ -15,7 +15,6 @@ build_requires:
   Template: 0
   Test::More: 0
   lib: 0
-  testapp: 0
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 0
@@ -36,6 +35,4 @@ requires:
   Moo: 0
   Try::Tiny: 0
   namespace::clean: 0
-  strict: 0
-  warnings: 0
-version: 0.004
+version: 0.005

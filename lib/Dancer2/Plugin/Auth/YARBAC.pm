@@ -9,7 +9,7 @@ use Carp;
 use Try::Tiny;
 use Data::Dumper;
 
-our $VERSION = '0.004';
+our $VERSION = '0.005';
 
 register logged_in_user => sub
 {
@@ -790,7 +790,7 @@ Dancer2::Plugin::Auth::YARBAC - Yet Another Role Based Access Control Framework
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 SYNOPSIS
 
