@@ -9,7 +9,7 @@ use Carp;
 use Try::Tiny;
 use Data::Dumper;
 
-our $VERSION = '0.003';
+our $VERSION = '0.004';
 
 register logged_in_user => sub
 {
@@ -790,7 +790,7 @@ Dancer2::Plugin::Auth::YARBAC - Yet Another Role Based Access Control Framework
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
@@ -851,8 +851,8 @@ L<Dancer2::Plugin::Auth::YARBAC::Provider::Database>.
 
 YARBAC is a role based user authentication and authorisation framework for Dancer2 apps. 
 Designed with security and a medium to large user base in mind. 
-This framework was heavily inspired by the excellent Dancer::Plugin::Auth::Extensible 
-framework which I'd highly recommend as it for your consideration. 
+This framework was heavily inspired by the excellent L<Dancer::Plugin::Auth::Extensible> 
+framework which I'd highly recommend. 
 YARBAC was designed to support secure password checking, enforced password hashing, 
 multiple authentication realms and the ability to create your own backend provider. 
 YARBAC was also designed to to be as flexialbe and as feature rich as possible 
