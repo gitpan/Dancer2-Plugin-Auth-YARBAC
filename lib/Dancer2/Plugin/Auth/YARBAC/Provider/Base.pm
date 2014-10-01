@@ -8,7 +8,7 @@ use namespace::clean;
 use Crypt::PBKDF2;
 use Data::Dumper;
 
-our $VERSION = '0.005';
+our $VERSION = '0.006';
 
 has dsl                   => ( is => 'ro' );
 has app                   => ( is => 'ro' );
@@ -379,7 +379,7 @@ Dancer2::Plugin::Auth::YARBAC::Provider::Base - Yet Another Role Based Access Co
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 DESCRIPTION
 
