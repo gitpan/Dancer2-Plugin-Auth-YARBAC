@@ -379,7 +379,7 @@ Dancer2::Plugin::Auth::YARBAC::Provider::Base - Yet Another Role Based Access Co
 
 =head1 VERSION
 
-version 0.006
+version 0.007
 
 =head1 DESCRIPTION
 

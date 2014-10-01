@@ -9,7 +9,7 @@ use Carp;
 use Try::Tiny;
 use Data::Dumper;
 
-our $VERSION = '0.006';
+our $VERSION = '0.007';
 
 register logged_in_user => sub
 {
@@ -790,7 +790,7 @@ Dancer2::Plugin::Auth::YARBAC - Yet Another Role Based Access Control Framework
 
 =head1 VERSION
 
-version 0.006
+version 0.007
 
 =head1 SYNOPSIS
 
@@ -1089,7 +1089,7 @@ returns false.
     # Optionally user other realm than current logged in user:
     # user_has_any_role( { role_names => [ 'admin', 'managers' ] }, { realm => 'admins' } );
 
-    my $has_role = user_has_any_role( { role_name => [ 'admin', 'managers' ] } );
+    my $has_role = user_has_any_role( { role_names => [ 'admin', 'managers' ] } );
 
     unless ( $has_role ) {
         # User doesn't have the role.
